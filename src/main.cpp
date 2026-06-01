@@ -24,7 +24,7 @@ void setup() {
     display.display();
     
     // GPS UART starten
-    GPSSerial.begin(9600, SERIAL_8N1, 44, 43);
+    GPSSerial.begin(115200, SERIAL_8N1, 17, 18);
     
     Serial.println("GPS Monitor gestartet!");
 }
